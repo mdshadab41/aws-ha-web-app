@@ -1,0 +1,7 @@
+{
+  "ImageId": "ami-08665958117a3e86a",
+  "InstanceType": "t3.micro",
+  "KeyName": "devops-lab-key",
+  "SecurityGroupIds": ["sg-0fa0a0e8bf8f94d13"],
+  "UserData": "IyEvYmluL2Jhc2gKYXB0IHVwZGF0ZSAteQphcHQgaW5zdGFsbCAteSBweXRob24zLXBpcCBnaXQKcGlwMyBpbnN0YWxsIGZsYXNrIC0tYnJlYWstc3lzdGVtLXBhY2thZ2VzCgpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL21kc2hhZGFiNDEvYXdzLWhhLXdlYi1hcHAuZ2l0IC9ob21lL3VidW50dS9hcHAKY2QgL2hvbWUvdWJ1bnR1L2FwcC9hcHAKCm5vaHVwIHB5dGhvbjMgYXBwLnB5ID4gL3Zhci9sb2cvZmxhc2stYXBwLmxvZyAyPiYxICY="
+}
