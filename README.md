@@ -144,6 +144,3 @@ To avoid ongoing AWS charges, tear down resources in this order:
 11. Delete the security groups (alb-sg, app-sg, bastion-sg)
 
 **Estimated running cost if left up:** ~$70–80/month, primarily from the 2 NAT Gateways (~$65) and their Elastic IPs (~$7). Both the console and CLI versions were built, verified working, and torn down the same day to avoid ongoing cost.
-
-## What I'd add for a full production setup
-HTTPS via ACM, WAF, RDS (Multi-AZ) for persistent data, CloudWatch alarms + CloudTrail, CI/CD pipeline, Route 53 custom domain.
